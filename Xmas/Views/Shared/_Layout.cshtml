@@ -1,0 +1,117 @@
+﻿<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Une fête de Noël Givrée</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Xmas Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    @Scripts.Render("~/Scripts/Load")
+    <!-- Custom Theme files -->
+    @Styles.Render("~/Content/XmasTheme")
+    <!--Web fonts-->
+    <link href="//fonts.googleapis.com/css?family=Yantramanav:100,300,400,500,700,900" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!--Fin web fonts-->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <div id="home">
+        <!-- header -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="main-nav">
+                <div class="container">
+
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">xmas</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1>
+                            <a class="navbar-brand" href="~/Home/Index">
+                                <img src="~/images/logo.png" alt="" />x mas
+                            </a>
+
+                        </h1>
+                        <!-- <a class="navbar-brand" href="index.html">
+                            <img src="images/logo1.png" alt="" /></a>-->
+
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse nav-right">
+                        <ul class="nav navbar-nav navbar-right cl-effect-15">
+                            <!-- Hidden li included to remove active class from about link when scrolled up past about w3_agile-section -->
+                            <li class="hidden">
+                                <a class="page-scroll" href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#about">Idées cadeaux</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#prices">Liste des invités</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#event">Tirage au sort</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#team">Organisateurs</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="/Membre/Home/Index"><i class="fa fa-lock" aria-hidden="true"></i>Mon Compte</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <div class="clearfix"></div>
+                </div>
+                <!-- /.container -->
+            </div>
+        </nav>
+        @RenderBody()
+        <div>
+            <div class="center-container w3_agile-section">
+
+            </div>
+        </div>
+    </div>
+    <!-- //event schedule -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <p>© 2019 Xmas. All rights reserved | Design by<a href="http://w3layouts.com/">W3layouts</a></p>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/Jquery")
+    @RenderSection("scripts", required: false)
+    <!-- //js -->
+    <!-- Scrolling Nav JavaScript -->
+    @Scripts.Render("~/Scripts/scrollingNav")
+    <!-- start-smooth-scrolling -->
+    @Scripts.Render("~/Scripts/Scroll")
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    @Scripts.Render("~/Scripts/SmoothScrolling")
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    @Scripts.Render("~/bundles/Boostrap")
+</body>
+
+</html>
